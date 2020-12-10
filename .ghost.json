@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://rostislavmarketing.herokuapp.com",
+    "contentApiKey": "36fa106f2ed42f8ec196048d72"
+  },
+  "production": {
+    "apiUrl": "https://rostislavmarketing.herokuapp.com",
+    "contentApiKey": "55513207b20cf2c84f85534671"
+  }
+}
