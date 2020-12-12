@@ -44,6 +44,17 @@ try {
     }
 }
 
+// In your gatsby-config.js
+plugins: [
+    {
+        resolve: `gatsby-theme-ghost-toc`,
+        options: {
+            // Number of shown headline levels (optional, default: 2)
+            maxDepth: 2,
+        },
+    },
+]
+
 module.exports = {
     plugins: [
         `gatsby-plugin-preact`,
